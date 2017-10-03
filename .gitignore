@@ -1,0 +1,54 @@
+# =============== #
+# Unity generated #
+# =============== #
+Builds/
+[Bb]uild/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+sysinfo.txt
+
+# =========== #
+# 3D Assets   #
+# =========== #
+#*.fbx
+
+# =========== #
+# Zip		  #
+# =========== #
+*.zip
+*.rar
+
+# =========== #
+# Android	  #
+# =========== #
+*.apk
+
+# =========== #
+# Unity extra #
+# =========== #
+*.unitypackage
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
