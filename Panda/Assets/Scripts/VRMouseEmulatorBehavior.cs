@@ -49,6 +49,11 @@ public class VRMouseEmulatorBehavior : MonoBehaviour
         {
             //Debug.Log("[" + heirarchy + "] is not a dev component");
         }
+
+        if (Target == null)
+        {
+            Target = Camera.main.transform;
+        }
     }
 
     void Start()
