@@ -121,7 +121,10 @@
      <None Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\READ ME.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\Shader\CustomFoliage.shader" />
+<<<<<<< HEAD
+=======
      <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
+>>>>>>> 933aa8941db52ba86e0767b28138396cb41eaa5c
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
