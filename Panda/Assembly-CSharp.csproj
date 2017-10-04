@@ -199,10 +199,7 @@
      <Compile Include="Assets\EarthSimplePlanets\Scripts\EarthOptionsGUISimple.cs" />
      <Compile Include="Assets\EarthSimplePlanets\Scripts\GeneralUI.cs" />
      <Compile Include="Assets\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
-<<<<<<< HEAD
-=======
      <Compile Include="Assets\SceneController.cs" />
->>>>>>> 76b177f2faad35bcd86a0e408fbb1b7136f49e3a
      <Compile Include="Assets\Scripts\SunRotation.cs" />
      <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Helpers\StaticHelper.cs" />
      <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\AudioController.cs" />
@@ -366,11 +363,8 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
-<<<<<<< HEAD
      <None Include="Assets\Butterfly (Animated)\Butterfly (Animated).txt" />
-=======
      <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\UI\UIOverlay.shader" />
->>>>>>> 76b177f2faad35bcd86a0e408fbb1b7136f49e3a
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
