@@ -139,7 +139,6 @@
     <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
-    <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -251,6 +250,9 @@
     <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
     <None Include="Assets\Campfire\Shaders\AlphaSelfIllum_Fire.shader" />
     <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
+    <None Include="Assets\Japanese Lantern Pack\Environment\HDR_Readme.txt" />
+    <None Include="Assets\Japanese Lantern Pack\readme.txt" />
+    <None Include="Assets\JapaneseIrisGardenPack\ReadMe.txt" />
     <None Include="Assets\Models\Human Spaceflight - Shuttle, ISS era\International Space Station High Res (JSC)\README.txt" />
     <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\READ ME.txt" />
     <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\Shader\CustomFoliage.shader" />

@@ -8,3 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/newMenu.unity
     guid: 4046b8a96722440bc9ac638477cba2ae
+  - enabled: 1
+    path: Assets/Scenes/Snow Mountain.unity
+    guid: b8e8ecf3b349a8e4ca823042eaf3c611
+  - enabled: 1
+    path: Assets/Scenes/JP_Room.unity
+    guid: 75d3cfebd1f8dcd42a7b48fb80b4ee01
+  - enabled: 1
+    path: Assets/Scenes/rainforest.unity
+    guid: 772a306d7e9974bee853509590c7d17d
+  - enabled: 1
+    path: Assets/Scenes/BeachIslandGoodOne.unity
+    guid: 08ea072556fa94bb19e049fc4ed4e083
+  - enabled: 1
+    path: Assets/Scenes/Space.unity
+    guid: eaf61fb14086e4fe3aa084590317aa0c
