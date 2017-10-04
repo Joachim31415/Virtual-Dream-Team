@@ -51,18 +51,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AssetStore\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
-     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\GeneratedWireframe.shader" />
      <None Include="Assets\Tropical Forest\Model\Shader\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlowConeTap.shader" />
@@ -91,10 +92,13 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\JapaneseIrisGardenPack\ReadMe.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\RimLighting.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Japanese Lantern Pack\readme.txt" />
      <None Include="Assets\Plugins\Android\Assets\OSIG_Readme.txt" />
      <None Include="Assets\AssetStore\HolyShift\Shaders\WaterInclude.cginc" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
@@ -105,6 +109,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\RimLightingWithAlpha.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
@@ -121,10 +126,7 @@
      <None Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\READ ME.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\Shader\CustomFoliage.shader" />
-<<<<<<< HEAD
-=======
      <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
->>>>>>> 933aa8941db52ba86e0767b28138396cb41eaa5c
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
@@ -133,6 +135,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\UI\UIOverlay.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
@@ -171,7 +174,9 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\BorderLoopHoneywell\AnimatedBorders\Magic\BorderLoop.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Japanese Lantern Pack\Environment\HDR_Readme.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
@@ -235,12 +240,6 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.LinuxStandalone.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>

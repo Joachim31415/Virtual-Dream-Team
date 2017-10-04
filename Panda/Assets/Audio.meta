@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 76a7f7d0634f3459985e45d1c49c99da
 folderAsset: yes
 timeCreated: 1507121706
+=======
+guid: 3fa24a02ea18849e98dc93bbe70dff7d
+folderAsset: yes
+timeCreated: 1507128385
+>>>>>>> zen_garden
 licenseType: Free
 DefaultImporter:
   userData: 
