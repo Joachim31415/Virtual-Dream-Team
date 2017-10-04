@@ -194,6 +194,7 @@
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\Scripts\SunRotation.cs" />
      <Compile Include="Assets\Campfire\Script\Ambiance_Fire.cs" />
      <Compile Include="Assets\Scripts\VRMouseEmulatorBehavior.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
