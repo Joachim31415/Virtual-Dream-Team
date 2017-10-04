@@ -194,9 +194,11 @@
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
-     <Compile Include="Assets\Scripts\SunRotation.cs" />
      <Compile Include="Assets\Campfire\Script\Ambiance_Fire.cs" />
+     <Compile Include="Assets\Scripts\SunRotation.cs" />
      <Compile Include="Assets\Scripts\VRMouseEmulatorBehavior.cs" />
+     <Compile Include="Assets\Tropical Forest\Model\Palm\sunrotation.cs" />
+     <Compile Include="Assets\Tropical Forest\Model\Shader\Scripts\CameraRotate.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\VRSampleScenes\Scripts\Common\SessionData.cs" />
      <Compile Include="Assets\VRSampleScenes\Scripts\Examples\ExampleInteractiveItem.cs" />
@@ -259,6 +261,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Tropical Forest\Model\Shader\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlowConeTap.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -267,6 +270,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
      <None Include="Assets\AssetStore\HolyShift\readme.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
@@ -311,6 +315,8 @@
      <None Include="Assets\AssetStore\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\READ ME.txt" />
+     <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\Shader\CustomFoliage.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
@@ -347,6 +353,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Tropical Forest\Model\Shader\Shaders\WavingDoublePassCullBackface.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Cameras\CameraGuidelines.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
