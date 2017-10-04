@@ -195,6 +195,10 @@
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Campfire\Script\Ambiance_Fire.cs" />
+     <Compile Include="Assets\EarthSimplePlanets\Scripts\CloudRotation.cs" />
+     <Compile Include="Assets\EarthSimplePlanets\Scripts\EarthOptionsGUISimple.cs" />
+     <Compile Include="Assets\EarthSimplePlanets\Scripts\GeneralUI.cs" />
+     <Compile Include="Assets\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
      <Compile Include="Assets\Scripts\VRMouseEmulatorBehavior.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\VRSampleScenes\Scripts\Common\SessionData.cs" />
@@ -261,6 +265,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlowConeTap.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Models\Human Spaceflight - Shuttle, ISS era\International Space Station High Res (JSC)\README.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
@@ -310,6 +315,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
