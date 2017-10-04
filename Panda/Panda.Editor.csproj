@@ -248,6 +248,7 @@
     <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\Butterfly (Animated)\Butterfly (Animated).txt" />
     <None Include="Assets\Campfire\Shaders\AlphaSelfIllum_Fire.shader" />
     <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
     <None Include="Assets\Japanese Lantern Pack\Environment\HDR_Readme.txt" />
