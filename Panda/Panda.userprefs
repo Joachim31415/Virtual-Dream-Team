@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Properties StartupConfiguration="{916337C6-0858-00EE-9070-7062C052D94C}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SceneController.cs">
     <Files>
@@ -6,10 +7,22 @@
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+=======
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs">
+    <Files>
+      <File FileName="Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs" Line="8" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+>>>>>>> 01a3e99076b6fdcec24960d55d58b4f523a9ad8e
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.Panda PreferredExecutionTarget="Unity.Editor" />
   <MultiItemStartupConfigurations />
+=======
+>>>>>>> 01a3e99076b6fdcec24960d55d58b4f523a9ad8e
 </Properties>

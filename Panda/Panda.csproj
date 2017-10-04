@@ -78,6 +78,9 @@
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>/Applications/Unity2017/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
@@ -110,6 +113,9 @@
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>/Applications/Unity2017/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +167,7 @@
     <Compile Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\GlowEffect.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -261,7 +268,13 @@
     <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\Campfire\Script\Ambiance_Fire.cs" />
+    <Compile Include="Assets\EarthSimplePlanets\Scripts\CloudRotation.cs" />
+    <Compile Include="Assets\EarthSimplePlanets\Scripts\EarthOptionsGUISimple.cs" />
+    <Compile Include="Assets\EarthSimplePlanets\Scripts\GeneralUI.cs" />
+    <Compile Include="Assets\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
     <Compile Include="Assets\SceneController.cs" />
+    <Compile Include="Assets\Scripts\SunRotation.cs" />
     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Helpers\StaticHelper.cs" />
     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\AudioController.cs" />
     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\AudioManager.cs" />
@@ -288,6 +301,8 @@
     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\BorderLoopHoneywell\AnimatedBorders\Magic\AnimateBorderLoop.cs" />
     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\Scritps\WireframeMeshConditioner.cs" />
     <Compile Include="Assets\Scripts\VR\VRMouseEmulatorBehavior.cs" />
+    <Compile Include="Assets\Tropical Forest\Model\Palm\sunrotation.cs" />
+    <Compile Include="Assets\Tropical Forest\Model\Shader\Scripts\CameraRotate.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\VRSampleScenes\Scripts\Common\SessionData.cs" />
     <Compile Include="Assets\VRSampleScenes\Scripts\Examples\ExampleInteractiveItem.cs" />
@@ -378,6 +393,9 @@
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlowCompose.shader" />
+    <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlowEffectDownsample.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
@@ -389,6 +407,7 @@
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
@@ -449,12 +468,21 @@
     <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\Campfire\Shaders\AlphaSelfIllum_Fire.shader" />
+    <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
+    <None Include="Assets\Models\Human Spaceflight - Shuttle, ISS era\International Space Station High Res (JSC)\README.txt" />
+    <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\READ ME.txt" />
+    <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\Shader\CustomFoliage.shader" />
     <None Include="Assets\Plugins\Android\Assets\OSIG_Readme.txt" />
+    <None Include="Assets\ScannedRocks\BonusShaders\SnowOnRockShader.shader" />
     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\BorderLoopHoneywell\AnimatedBorders\Magic\BorderLoop.shader" />
     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\GeneratedWireframe.shader" />
     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\RimLighting.shader" />
     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\RimLightingWithAlpha.shader" />
     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\UI\UIOverlay.shader" />
+    <None Include="Assets\Snow_mountain\Shaders\Terrain\TerrBlendLake.shader" />
+    <None Include="Assets\Tropical Forest\Model\Shader\Shaders\WavingDoublePassCullBackface.shader" />
+    <None Include="Assets\Tropical Forest\Model\Shader\Shaders\WavingDoublePassNoCullBackface.shader" />
     <None Include="Assets\VRSampleScenes\Fonts\LICENSE.txt" />
     <None Include="Assets\VRSampleScenes\Shaders\SeparableAlpha.shader" />
     <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
