@@ -134,10 +134,7 @@
      <None Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\READ ME.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\Shader\CustomFoliage.shader" />
-<<<<<<< HEAD
-=======
      <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
->>>>>>> 933aa8941db52ba86e0767b28138396cb41eaa5c
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
@@ -146,6 +143,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Butterfly (Animated)\Butterfly (Animated).txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
@@ -248,12 +246,6 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.LinuxStandalone.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
