@@ -1351,6 +1351,64 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 592ed76651b700341888c26dd87d2809, type: 2}
   m_PrefabInternal: {fileID: 886884275}
+--- !u!1001 &1006891391
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1801.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 232.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.0045179785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.81548685
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0.0063815564
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.5787228
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007794325975134, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_Name
+      value: CameraVR
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.896
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 109.276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4159549298962002, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d8587ff770c8f9d47b6addfec48d1035, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1015642941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2055,6 +2113,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.001
       objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11408010, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
     - {fileID: 11468470, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
@@ -2379,6 +2445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1657518565}
   - component: {fileID: 1657518564}
+  - component: {fileID: 1657518566}
   m_Layer: 0
   m_Name: Water4AdvancedReflectionSceneCamera
   m_TagString: Untagged
@@ -2428,13 +2495,21 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1657518563}
-  m_LocalRotation: {x: 0.041574385, y: 0.9584181, z: 0.19767395, w: -0.20157227}
-  m_LocalPosition: {x: -1346.2944, y: -285.4863, z: 1612.6086}
+  m_LocalRotation: {x: 0.087172285, y: 0.89959055, z: 0.21045254, w: -0.37262255}
+  m_LocalPosition: {x: -1791.6539, y: -17.82341, z: 1256.8481}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &1657518566
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1657518563}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
 --- !u!4 &1703864684 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400386, guid: 3cffb12722e5cbb4e99daceb48ee5675, type: 2}
