@@ -195,15 +195,38 @@
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
      <Compile Include="Assets\Campfire\Script\Ambiance_Fire.cs" />
-<<<<<<< HEAD
-=======
      <Compile Include="Assets\EarthSimplePlanets\Scripts\CloudRotation.cs" />
      <Compile Include="Assets\EarthSimplePlanets\Scripts\EarthOptionsGUISimple.cs" />
      <Compile Include="Assets\EarthSimplePlanets\Scripts\GeneralUI.cs" />
      <Compile Include="Assets\EarthSimplePlanets\Scripts\RevealNightEarthTexture.cs" />
->>>>>>> 933aa8941db52ba86e0767b28138396cb41eaa5c
+     <Compile Include="Assets\SceneController.cs" />
      <Compile Include="Assets\Scripts\SunRotation.cs" />
-     <Compile Include="Assets\Scripts\VRMouseEmulatorBehavior.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Helpers\StaticHelper.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\AudioController.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\InputManager.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\PlatformManager.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\PlatformStreamingFiles.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Project\Singleton.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Standard\Billboard.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Standard\FollowPosition.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Standard\FollowRotation.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Standard\RotateObject.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\Standard\RotationSameAsTarget.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\CircleTransition.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\ColorTransition.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\Hotspot.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\HotspotInfo.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\Reticle.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\Sample2DHotspot.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\Sample3DHotspot.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\UI\TestHotspot.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\VR\Debug\DrawRayFromCamera.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\VR\GazeGestureVR.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Scripts\VR\VRConfiguration.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\BorderLoopHoneywell\AnimatedBorders\Magic\AnimateBorderLoop.cs" />
+     <Compile Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\Scritps\WireframeMeshConditioner.cs" />
+     <Compile Include="Assets\Scripts\VR\VRMouseEmulatorBehavior.cs" />
      <Compile Include="Assets\Tropical Forest\Model\Palm\sunrotation.cs" />
      <Compile Include="Assets\Tropical Forest\Model\Shader\Scripts\CameraRotate.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
@@ -268,6 +291,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\GeneratedWireframe.shader" />
      <None Include="Assets\Tropical Forest\Model\Shader\Shaders\WavingDoublePassNoCullBackface.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlowConeTap.shader" />
@@ -296,10 +320,13 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\JapaneseIrisGardenPack\ReadMe.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\RimLighting.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Japanese Lantern Pack\readme.txt" />
      <None Include="Assets\Plugins\Android\Assets\OSIG_Readme.txt" />
      <None Include="Assets\AssetStore\HolyShift\Shaders\WaterInclude.cginc" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
@@ -310,6 +337,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\O2\RimLightingWithAlpha.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
@@ -326,10 +354,7 @@
      <None Include="Assets\AssetStore\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\READ ME.txt" />
      <None Include="Assets\Odds_N_Ends Series - Tropical Foliage v1.0\Shader\CustomFoliage.shader" />
-<<<<<<< HEAD
-=======
      <None Include="Assets\EarthSimplePlanets\Shaders\DisplayNightEarthTexture.shader" />
->>>>>>> 933aa8941db52ba86e0767b28138396cb41eaa5c
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
      <None Include="Assets\VRSampleScenes\Shaders\SlidingUV.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
@@ -338,6 +363,7 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\UI\UIOverlay.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
@@ -376,7 +402,9 @@
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Scripts\VR\HFUnityLibrary\Shaders\BorderLoopHoneywell\AnimatedBorders\Magic\BorderLoop.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Japanese Lantern Pack\Environment\HDR_Readme.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\AssetStore\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
