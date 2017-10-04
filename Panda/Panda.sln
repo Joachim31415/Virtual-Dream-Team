@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio 2017
+=======
+# Visual Studio for Mac
+>>>>>>> 3af90526b95f84f3af5e8534e68d76239c30d954
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda", "Panda.csproj", "{916337C6-0858-00EE-9070-7062C052D94C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Plugins", "Panda.Plugins.csproj", "{01F65180-5310-98F0-BAFD-2969299B7763}"

@@ -304,6 +304,7 @@
      <None Include="Assets\AssetStore\HolyShift\Shaders\WaterInclude.cginc" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
      <None Include="Assets\VRSampleScenes\Shaders\UIOverlay.shader" />
+     <None Include="Assets\Snow_mountain\Shaders\Terrain\TerrBlendLake.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
      <None Include="Assets\ScannedRocks\BonusShaders\SnowOnRockShader.shader" />
      <None Include="Assets\AssetStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
