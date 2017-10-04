@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda", "Assembly-CSharp.csproj", "{329F3DAD-B581-4773-0B49-52548F1F541D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda", "Assembly-CSharp-firstpass.csproj", "{D5E5B285-3601-50E1-6F4C-D47C8A4FAD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda", "Assembly-CSharp-Editor.csproj", "{3443DA2A-4A0C-052A-DADC-38331A3785A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{329F3DAD-B581-4773-0B49-52548F1F541D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329F3DAD-B581-4773-0B49-52548F1F541D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329F3DAD-B581-4773-0B49-52548F1F541D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329F3DAD-B581-4773-0B49-52548F1F541D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E5B285-3601-50E1-6F4C-D47C8A4FAD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E5B285-3601-50E1-6F4C-D47C8A4FAD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E5B285-3601-50E1-6F4C-D47C8A4FAD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E5B285-3601-50E1-6F4C-D47C8A4FAD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3443DA2A-4A0C-052A-DADC-38331A3785A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3443DA2A-4A0C-052A-DADC-38331A3785A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3443DA2A-4A0C-052A-DADC-38331A3785A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3443DA2A-4A0C-052A-DADC-38331A3785A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
