@@ -735,8 +735,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 583981832}
-  m_LocalRotation: {x: 0.11141964, y: 0.79569995, z: 0.15418784, w: -0.5750421}
-  m_LocalPosition: {x: 246.7709, y: -231.6549, z: 351.95175}
+  m_LocalRotation: {x: -0.20204139, y: 0.11574562, z: 0.024049057, w: 0.972216}
+  m_LocalPosition: {x: -1359.8303, y: 17.894165, z: 539.5504}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1978,11 +1978,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 110.4
+      value: 111.1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 750
+      value: 818.3
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2006,23 +2006,31 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -.0227770898
+      value: -0.02277709
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_LocalRotation.y
-      value: .969346702
+      value: 0.9693467
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -.0986190662
+      value: -0.098619066
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -.223880604
+      value: -0.2238806
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 8.035798
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: b544816461f324e56a39767fdeb5b114, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 13.784813
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b544816461f324e56a39767fdeb5b114, type: 2}
@@ -2871,7 +2879,7 @@ Terrain:
   m_TreeBillboardDistance: 240
   m_TreeCrossFadeLength: 0
   m_TreeMaximumFullLODCount: 0
-  m_DetailObjectDistance: 248
+  m_DetailObjectDistance: 250
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 10
   m_SplatMapDistance: 2000
